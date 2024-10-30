@@ -1,0 +1,7 @@
+@Vytek ➜ /workspaces/readncfile (main) $ go run . > test3.log
+panic: interface conversion: interface {} is [][][][]float32, not []float32
+
+goroutine 1 [running]:
+main.main()
+        /workspaces/readncfile/main.go:56 +0x574
+exit status 2

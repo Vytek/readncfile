@@ -54,7 +54,7 @@ func main() {
 
 	vssdd, _ := vs.Values()
 	vsddd := vssdd.([][][][]float32)
-	spew.Dump(vsddd)
+	spew.Dump(vsddd[0])
 	
 	//See this:
 	//https://github.com/batchatco/go-native-netcdf/blob/5849c1f424b12bc9f6441723ba6297f2d484e5d2/netcdf/cdf/slicer_test.go
