@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/batchatco/go-native-netcdf/netcdf"
+	"github.com/davecgh/go-spew/spew"
 )
 
 func main() {
@@ -45,10 +46,21 @@ func main() {
 	for i, g := range vsd {
 		fmt.Println(i, g)
 	}
-	vs.Attributes()
+	/* Using GetSlice
+	vss,_ := vs.GetSlice(0,3)
+	vssd := vss.([][][][]float32)
+	spew.Dump(vssd)
+	*/
+
+	vssdd, _ := vs.Values()
+	vsddd := vssdd.([][][][]float32)
+	spew.Dump(vsddd)
+	
+	//See this:
+	//https://github.com/batchatco/go-native-netcdf/blob/5849c1f424b12bc9f6441723ba6297f2d484e5d2/netcdf/cdf/slicer_test.go
 
 	fmt.Println("------ VALUES ---------")
-
+	/*
 	// Cast the data into a Go type we can use
 	lats, has := vr.Values.([]float32)
 	if !has {
@@ -57,4 +69,5 @@ func main() {
 	for i, lat := range lats {
 		fmt.Println(i, lat)
 	}
+	*/
 }
