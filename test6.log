@@ -1,0 +1,87 @@
+Depth array index: 17 (87.000000)
+Depth array lat: 69 (-20.602992)
+Depth array long: 156 (-23.594518)
+------ VARIABLES ---------
+0 crs
+1 lat
+2 lat_bnds
+3 lon
+4 lon_bnds
+5 depth
+6 depth_bnds
+7 time
+8 climatology_bounds
+9 s_an
+10 s_mn
+11 s_dd
+12 s_sd
+13 s_se
+14 s_oa
+15 s_ma
+16 s_gp
+17 s_sdo
+18 s_sea
+------ SUBGROUPS ---------
+------ VARGETTER ---------
+0 time
+1 depth
+2 lat
+3 lon
+(float32) 37.10191
+(float32) 37.12051
+(float32) 37.097412
+(float32) 37.096188
+(float32) 37.05069
+(float32) 36.986412
+(float32) 36.91689
+(float32) 36.862488
+(float32) 36.83791
+(float32) 36.819912
+(float32) 36.79799
+(float32) 36.54341
+(float32) 35.876213
+(float32) 35.48449
+(float32) 35.25469
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 35.16651
+(float32) 35.0183
+(float32) 34.87299
+(float32) 34.7524
+(float32) 34.59941
+(float32) 34.45481
+(float32) 34.404587
+(float32) 34.422188
+(float32) 34.46999
+(float32) 34.536488
+(float32) 34.617188
+(float32) 34.70241
+(float32) 34.76049
+(float32) 34.81649
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+(float32) 9.96921e+36
+------ VALUES ---------
